@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "",
-    "postinstall": "bower install && npm run start"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "body-parser": "1.15.1",
