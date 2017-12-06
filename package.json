@@ -9,13 +9,13 @@
   "scripts": {
     "start": "node app.js",
     "test": "",
+    "preinstall": "npm install -g express@4.13.4",
     "postinstall": "bower install && npm run start"
   },
   "dependencies": {
     "body-parser": "1.15.1",
     "cookie-parser": "1.4.3",
     "errorhandler": "1.4.3",
-    "express": "4.13.4",
     "express-session": "1.13.0",
     "jade": "1.11.0",
     "morgan": "1.7.0",
