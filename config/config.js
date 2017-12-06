@@ -1,5 +1,4 @@
 module.exports = {
-  development: {
     app: {
       name: 'Passport SAML strategy example',
       port: process.env.PORT || 5000
@@ -13,6 +12,5 @@ module.exports = {
         cert: process.env.SAML_CERT || null
       }
     }
-  }
 };
 
