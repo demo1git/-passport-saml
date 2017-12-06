@@ -34,6 +34,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 require('./config/routes')(app, config, passport);
 
 app.listen(config.app.port, function () {
