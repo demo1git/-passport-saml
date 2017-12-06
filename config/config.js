@@ -2,7 +2,7 @@ module.exports = {
   development: {
     app: {
       name: 'Passport SAML strategy example',
-      port: process.env.PORT || 3000
+      port: process.env.PORT || 5000
     },
     passport: {
       strategy: 'saml',
