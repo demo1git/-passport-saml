@@ -7,9 +7,9 @@
     "sso"
   ],
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "",
-    "postinstall": "bower install"
+    "postinstall": "bower install && npm run start"
   },
   "dependencies": {
     "body-parser": "1.15.1",
