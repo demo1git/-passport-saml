@@ -12,10 +12,10 @@ module.exports = function (passport, config) {
 
   passport.use(new SamlStrategy(
     {
-      path: config.passport.saml.path,
-      entryPoint: config.passport.saml.entryPoint,
-      issuer: config.passport.saml.issuer,
-      cert: config.passport.saml.cert
+      path: '/login/callback',
+      entryPoint: 'https://cybage-sso-demo-dev.onelogin.com/trust/saml2/http-post/sso/728295',
+      issuer: 'passport-saml',
+      cert: ''
     },
     function (profile, done) {
       return done(null,
